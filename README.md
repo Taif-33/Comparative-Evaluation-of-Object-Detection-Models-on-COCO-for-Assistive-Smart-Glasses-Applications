@@ -2,12 +2,12 @@
 
 ---
 
-## 📌 Project Description
+## Project Description
 A comprehensive evaluation of 10 state-of-the-art object detection models on the COCO val2017 dataset, optimized for real-time assistive smart-glasses applications for the visually impaired. This project compares two-stage detectors, single-stage anchor-based detectors, anchor-free detectors, and transformer-based architectures to find the optimal balance between inference speed and accuracy.
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 - [Project Overview](#-project-overview)
 - [Models Evaluated](#-models-evaluated)
 - [Dataset & Methodology](#-dataset--methodology)
@@ -18,14 +18,14 @@ A comprehensive evaluation of 10 state-of-the-art object detection models on the
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 Smart-glasses systems for the visually impaired must detect obstacles, people, and everyday objects in real-time, imposing strict constraints on both accuracy and inference latency. This project addresses the research question: **Which object detection architecture provides the best accuracy-speed trade-off for an assistive smart-glasses system deployed on an edge device?**
 
 We evaluate ten models spanning all major architectural families using a single unified evaluation pipeline (`pycocotools`) to ensure a fair comparison.
 
 ---
 
-## 🤖 Models Evaluated
+## Models Evaluated
 We benchmarked 10 models across different architectural paradigms:
 
 1. **YOLOv7** (Highest Accuracy/Speed Balance)
@@ -41,7 +41,7 @@ We benchmarked 10 models across different architectural paradigms:
 
 ---
 
-## 📊 Dataset & Methodology
+## Dataset & Methodology
 - **Dataset:** Microsoft COCO val2017 (5,000 images, 80 object categories)
 - **Evaluation Metric:** standard COCO metric (`mAP@0.5:0.95`)
 - **Hardware:** NVIDIA Tesla T4 GPU (Google Colab)
@@ -51,7 +51,7 @@ We also conducted experiments on **Adversarial Class Imbalance** (simulating cro
 
 ---
 
-## 🏆 Key Findings
+## Key Findings
 
 ### Accuracy vs. Speed Trade-off
 
@@ -69,7 +69,7 @@ We also conducted experiments on **Adversarial Class Imbalance** (simulating cro
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 The project is designed to run in **Google Colab** to ensure standardized GPU access (NVIDIA T4) and reproducible environments.
@@ -82,7 +82,7 @@ The project is designed to run in **Google Colab** to ensure standardized GPU ac
 
 ---
 
-## 👥 Authors
+## Authors
 This project was developed for the **CS 4082: Machine Learning** course (Spring 2026) at **Effat University**, under the instruction of **Dr. Naila Marir**.
 
 - **Rama Alkusair** (Member 1) — Evaluated YOLOv5s, SSD300 VGG16, RetinaNet R50-FPN-V2
